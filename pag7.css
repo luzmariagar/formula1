@@ -1,0 +1,49 @@
+body {
+    margin: 50px;
+    padding: 0px;
+    background-color: #e988ab;
+}
+
+.estilo-img {
+    width: 220px;
+    height: auto;
+    margin: 30px;
+}
+
+p {
+    color: rgb(19, 15, 15);
+    font-size: 90px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin: 0px;
+}
+
+h3 {
+    color: rgb(18, 15, 15);
+}
+
+.aston {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-alonso img {
+    max-width: 220px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.imagen-stroll img {
+    max-width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.texto {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.texto p {
+    margin: 0;
+}

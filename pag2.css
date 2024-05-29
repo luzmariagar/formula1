@@ -1,0 +1,76 @@
+body{
+    margin: 50px;
+    padding: 0px;
+    background-color:#00A19B;
+}
+
+.estilo-img{
+    width: 220px;
+    height: auto;
+    margin: 30px;
+}
+
+p{
+    color: white;
+    font-size: 90px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin: 0px;
+
+}
+.mercedes {
+    display: flex;
+}
+
+.texto-lewis,
+.texto-george {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.imagen-lewis,
+.imagen-george {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-lewis img {
+    width: 260px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.imagen-george img {
+    width: 168px;
+    height: auto;
+}
+
+.texto-lewis p,
+.texto-george p {
+    margin: 0;
+}
+
+.texto-lewis table,
+.texto-george table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.texto-lewis th,
+.texto-lewis td,
+.texto-george th,
+.texto-george td {
+    border: 5px solid rgb(58, 80, 79);
+    padding: 8px;
+    text-align: left;
+}
+
+.texto-lewis th:first-child,
+.texto-lewis td:first-child,
+.texto-george th:first-child,
+.texto-george td:first-child {
+    font-weight: bold;
+}

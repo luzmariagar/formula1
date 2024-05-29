@@ -1,0 +1,56 @@
+body{
+    margin: 50px;
+    padding: 0px;
+    background-color: white;
+}
+
+.estilo-img{
+    width: 220px;
+    height: auto;
+    margin: 30px;
+}
+
+p{
+    color: rgb(19, 16, 16);
+    font-size: 90px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin: 0px;
+ 
+
+}
+h3{
+    color: rgb(18, 15, 15);
+}
+    
+.alpha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-yuki,
+.imagen-dan {
+    display: flex;
+    align-items: center;
+}
+
+.imagen-yuki img {
+    max-width: 160px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.imagen-dan img {
+    max-width: 550px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.imagen-yuki p,
+.imagen-dan p {
+    margin: 0;
+}
+
+.imagen-yuki {
+    margin-right: 20px;
+}

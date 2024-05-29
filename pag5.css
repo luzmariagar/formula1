@@ -1,0 +1,44 @@
+body{
+    margin: 50px;
+    padding: 0px;
+    background-color: #e988ab;
+}
+
+.estilo-img{
+    width: 220px;
+    height: auto;
+    margin: 30px;
+}
+
+p{
+    color: white;
+    font-size: 90px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin: 0px;
+ 
+
+}
+h3{
+    color: rgb(18, 15, 15);
+}
+.alpine {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.imagen-ocon img, .imagen-gasly img {
+    max-width: 200px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.texto {
+    flex: 1; 
+    padding: 0 20px; 
+}
+
+
+.texto p {
+    margin: 0; 
+}

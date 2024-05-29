@@ -1,0 +1,59 @@
+body{
+    margin: 50px;
+    padding: 0px;
+    background-color: rgba(19, 13, 58, 0.963);
+}
+
+.estilo-img{
+    width: 220px;
+    height: auto;
+    margin: 30px;
+}
+
+p{
+    color: white;
+    font-size: 90px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin: 0px;
+ 
+
+}
+h3{
+    color: white;
+}
+.redbull {
+    display: flex; 
+}
+
+.imagenes {
+    display: flex; 
+}
+
+.imagenes img {
+    width: 260px;
+    height: auto;
+    margin-right: 10px; 
+}
+
+.texto {
+    flex: 1; 
+    padding: 0 20px; 
+}
+
+
+.texto p {
+    margin: 0; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    color: white;
+}
+
+
+td, th {
+    border: 1px solid #dddddd; 
+    padding: 8px; 
+    text-align: left; 
+}

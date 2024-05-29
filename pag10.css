@@ -1,0 +1,56 @@
+body {
+    margin: 50px;
+    padding: 0px;
+    background-color: #B11A2C;
+}
+
+.estilo-img {
+    width: 220px;
+    height: auto;
+    margin: 30px;
+}
+
+p {
+    color: rgb(19, 15, 15);
+    font-size: 90px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin: 0px;
+}
+
+h3 {
+    color: rgb(18, 15, 15);
+}
+
+.haas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-nico,
+.imagen-kevin {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.imagen-nico img {
+    max-width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.imagen-kevin img {
+    max-width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.texto {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.texto p {
+    margin: 0;
+}
